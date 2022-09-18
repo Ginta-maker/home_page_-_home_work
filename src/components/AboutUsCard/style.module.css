@@ -1,0 +1,64 @@
+.card_item {
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.card_item:hover {
+    background-color: rgb(29, 97, 157);
+    color: #fff;
+}
+
+.card_item:hover > button {
+    border-color: #fff;
+    color: #fff;
+
+}
+
+.card_item:hover > a { 
+    color: #fff;
+}
+
+.value {
+    font-size: 50px;
+}
+
+.title {
+    width: 140px;
+    font-size: 12px;
+    margin: 8px 0;
+}
+
+.card_item a {
+    display: none;
+}
+
+@media (max-width: 950px) {
+    
+    .card_item {
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        gap: 80px;
+        padding: 50px;
+    }
+
+    .value {
+        font-size: 60px;
+        font-weight: 900px;
+    }
+
+    .title {
+        width: 160px;
+        font-size: 20px;
+        margin: 8px 0;
+    }
+
+    .card_item a {
+        display: flex;
+        font-size: 27px;
+        color: rgb(29, 97, 157);
+    }
+
+}

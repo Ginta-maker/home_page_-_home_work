@@ -1,0 +1,20 @@
+.btn {
+    width: 173px;
+    height: 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 21px;
+    background-color: transparent;
+    border-radius: 25px; 
+}
+
+.dark_mode {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.light_mode {
+    border: 2px solid rgb(29, 97, 157);
+    color: rgb(29, 97, 157);
+}
+

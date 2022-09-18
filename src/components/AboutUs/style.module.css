@@ -1,0 +1,43 @@
+.about_us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 140px 0;
+}
+
+.infoText {
+    width: 445px;
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.accent {
+    display: block;
+    color: rgb(29, 97, 157);
+}
+
+.achievements {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 30px;
+}
+
+@media (max-width: 950px) {
+    .about_us {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 40px 90px;
+    }
+
+    .infoText {
+        width: 100%;
+        font-size: 32px;
+        line-height: 35px;
+        margin-top: -70px;
+    }
+
+    .achievements {
+        grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+        gap: 40px;
+        margin-top: 50px;
+    }
+}

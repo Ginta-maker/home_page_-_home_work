@@ -14,3 +14,28 @@
 .menu li {
     margin: 0 20px;
 }
+
+.butger_menu {
+    display: none;
+    font-size: 40px;
+}
+
+@media (max-width: 950px) {
+    .butger_menu {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .wrapper {
+        padding: 0 90px;
+    }
+
+    .wrapper button {
+        display: none;
+    }
+
+    
+}
